@@ -1,0 +1,16 @@
+2024-05-03T15:41:20.412+02:00  INFO 23124 --- [MicroService1] [main] c.m.m.MicroService1Application           : Starting MicroService1Application using Java 17.0.5 with PID 23124 (E:\intliji_workSpace\MicroServiceApp\Demo App\MicroService1\target\classes started by Mohamed Ragab in E:\intliji_workSpace\MicroServiceApp\Demo App\MicroService1)
+2024-05-03T15:41:20.414+02:00  INFO 23124 --- [MicroService1] [main] c.m.m.MicroService1Application           : No active profile set, falling back to 1 default profile: "default"
+2024-05-03T15:41:21.196+02:00  INFO 23124 --- [MicroService1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-05-03T15:41:21.204+02:00  INFO 23124 --- [MicroService1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-03T15:41:21.280+02:00  INFO 23124 --- [MicroService1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-03T15:41:21.332+02:00  INFO 23124 --- [MicroService1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-03T15:41:21.333+02:00  INFO 23124 --- [MicroService1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 858 ms
+2024-05-03T15:41:21.584+02:00  INFO 23124 --- [MicroService1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path ''
+2024-05-03T15:41:21.590+02:00  INFO 23124 --- [MicroService1] [main] c.m.m.MicroService1Application           : Started MicroService1Application in 1.579 seconds (process running for 2.053)
+2024-05-03T15:41:25.802+02:00  INFO 23124 --- [MicroService1] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-03T15:41:25.802+02:00  INFO 23124 --- [MicroService1] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-03T15:41:25.803+02:00  INFO 23124 --- [MicroService1] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-03T15:41:25.806+02:00  INFO 23124 --- [MicroService1] [http-nio-9091-exec-1] c.msa.microservice1.filters.Ms1Filter    : Logging Request  GET : /api/msa1/message
+2024-05-03T15:41:25.837+02:00  INFO 23124 --- [MicroService1] [http-nio-9091-exec-1] c.msa.microservice1.filters.Ms1Filter    : Logging Response :text/plain;charset=UTF-8 , org.apache.catalina.connector.ResponseFacade@5fde4757
+2024-05-03T15:52:10.539+02:00  INFO 23124 --- [MicroService1] [http-nio-9091-exec-2] c.msa.microservice1.filters.Ms1Filter    : Logging Request  GET : /api/msa1/message33
+2024-05-03T15:52:10.547+02:00  INFO 23124 --- [MicroService1] [http-nio-9091-exec-2] c.msa.microservice1.filters.Ms1Filter    : Logging Response :null , org.apache.catalina.connector.ResponseFacade@75f9eadf
