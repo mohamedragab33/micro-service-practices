@@ -1,14 +1,14 @@
 package com.msa.microservice1;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+//import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
+//import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 public class MicroService1Application {
 
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ static
 class MicroServiceController{
 
         @GetMapping("api/msa1/message")
-        @HystrixCommand(fallbackMethod = "displayDefaultMessage")
+     //   @HystrixCommand(fallbackMethod = "displayDefaultMessage")
         public String displayMessage() {
             return "Hello from MicroService1";
         }

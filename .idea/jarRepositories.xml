@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dxl-eu9-snapshots" />
+      <option name="name" value="Snapshot" />
+      <option name="url" value="https://nexus-ui.dxl-prod.aws.cps.vodafone.com/repository/dxl-eu9-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="myvdfie-releases" />
+      <option name="name" value="Snapshot" />
+      <option name="url" value="https://nexus-ui.dxl-prod.aws.cps.vodafone.com/repository/myvdfie-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="myvdfie-snapshots" />
+      <option name="name" value="Snapshot" />
+      <option name="url" value="https://nexus-ui.dxl-prod.aws.cps.vodafone.com/repository/myvdfie-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dxl-eu9-releases" />
+      <option name="name" value="Releases" />
+      <option name="url" value="https://nexus-ui.dxl-prod.aws.cps.vodafone.com/repository/dxl-eu9-releases/" />
+    </remote-repository>
+  </component>
+</project>
